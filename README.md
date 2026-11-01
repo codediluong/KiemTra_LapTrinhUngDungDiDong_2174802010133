@@ -1,6 +1,6 @@
 # BÀI KIỂM TRA THỰC HÀNH — CÂU 3
 
-- Họ tên: **Từ Thiếu Lương**
+- Họ tên: **Từ Thiệu Lương**
 - MSSV: **2174802010133**
 - Branch: **`cau-3`**
 
