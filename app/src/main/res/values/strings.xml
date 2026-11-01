@@ -16,4 +16,7 @@
     <string name="error_password_length">Mật khẩu phải có ít nhất 6 ký tự!</string>
     <string name="status_success">Xác thực thành công!</string>
     <string name="student_footer">Từ Thiếu Lương - 2174802010133</string>
+    <string name="profile_title">Thông tin tài khoản</string>
+    <string name="profile_email_label">Email người dùng</string>
+    <string name="logout_button">Đăng xuất</string>
 </resources>

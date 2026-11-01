@@ -1,13 +1,13 @@
-# BÀI KIỂM TRA THỰC HÀNH — CÂU 1
+# BÀI KIỂM TRA THỰC HÀNH — CÂU 2
 
 - Họ tên: **Từ Thiếu Lương**
 - MSSV: **2174802010133**
-- Branch: **`cau-1`**
+- Branch: **`cau-2`**
 
 ## Nội dung thực hiện
 Màn hình đăng nhập viết bằng Kotlin + ConstraintLayout XML; sử dụng `findViewById`, `Patterns.EMAIL_ADDRESS`, kiểm tra trống và mật khẩu tối thiểu 6 ký tự. Không dùng ViewBinding.
 
-## Minh chứng Câu 1
+## Minh chứng Câu 1 (kế thừa)
 Chạy app trên máy ảo, chụp 2 ảnh thật, đặt chính xác tên dưới đây trong thư mục `screenshots/` rồi commit ảnh trước khi nộp.
 
 **Dữ liệu lỗi (ví dụ email `abc`, mật khẩu `123`):**
@@ -19,3 +19,8 @@ Chạy app trên máy ảo, chụp 2 ảnh thật, đặt chính xác tên dư�
 ![Validation Success](screenshots/cau1_validation_success.png)
 
 > Ảnh minh chứng chưa được cung cấp; cần chụp trên máy ảo trước khi nộp.
+
+## Minh chứng Câu 2
+Nhập email và mật khẩu hợp lệ, nhấn Đăng nhập để mở ProfileActivity; chụp ảnh màn hình hiển thị đúng Email.
+
+![Profile Intent](screenshots/cau2_profile_intent.png)

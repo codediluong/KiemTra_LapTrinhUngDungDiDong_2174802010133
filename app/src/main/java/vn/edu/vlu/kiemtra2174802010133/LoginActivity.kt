@@ -1,5 +1,6 @@
 package vn.edu.vlu.kiemtra2174802010133
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Button
@@ -7,7 +8,7 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-/** Câu 1 - Xác thực dữ liệu, bắt buộc ánh xạ bằng findViewById. */
+/** Câu 1 + 2: xác thực đăng nhập rồi dùng Explicit Intent để mở ProfileActivity. */
 class LoginActivity : AppCompatActivity() {
     private lateinit var edtEmail: EditText
     private lateinit var edtPassword: EditText
@@ -16,12 +17,10 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-
         edtEmail = findViewById(R.id.edtEmail)
         edtPassword = findViewById(R.id.edtPassword)
         tvStatus = findViewById(R.id.tvStatus)
-        val btnLogin = findViewById<Button>(R.id.btnLogin)
-        btnLogin.setOnClickListener { validateLogin() }
+        findViewById<Button>(R.id.btnLogin).setOnClickListener { validateLogin() }
     }
 
     private fun validateLogin() {
@@ -42,5 +41,8 @@ class LoginActivity : AppCompatActivity() {
         }
         tvStatus.setText(R.string.status_success)
         tvStatus.setTextColor(getColor(R.color.success))
+        val intent = Intent(this, ProfileActivity::class.java)
+        intent.putExtra(ProfileActivity.EXTRA_EMAIL, email)
+        startActivity(intent)
     }
 }
