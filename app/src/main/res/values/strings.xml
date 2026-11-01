@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Bài kiểm tra Android Kotlin</string>
     <string name="login_title">Đăng nhập hệ thống</string>
-    <string name="login_subtitle">Bài kiểm tra thực hành - Lập trình ứng dụng di động</string>
     <string name="email_label">Email</string>
     <string name="password_label">Mật khẩu</string>
     <string name="email_hint">Nhập địa chỉ email</string>
     <string name="password_hint">Nhập mật khẩu</string>
     <string name="login_button">Đăng nhập</string>
-    <string name="status_label">Kết quả xác thực sẽ xuất hiện tại đây</string>
     <string name="error_both">Vui lòng nhập Email và Mật khẩu!</string>
     <string name="error_email_empty">Vui lòng nhập Email!</string>
     <string name="error_password_empty">Vui lòng nhập Mật khẩu!</string>
     <string name="error_email_format">Email không đúng định dạng!</string>
     <string name="error_password_length">Mật khẩu phải có ít nhất 6 ký tự!</string>
     <string name="status_success">Xác thực thành công!</string>
-    <string name="student_footer">Từ Thiếu Lương - 2174802010133</string>
+    <string name="student_footer">Từ Thiệu Lương - 2174802010133</string>
 </resources>
