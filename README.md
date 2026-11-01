@@ -1,11 +1,21 @@
-# KiemTra_LapTrinhUngDungDiDong_2174802010133
+# BÀI KIỂM TRA THỰC HÀNH — CÂU 1
 
-- Sinh viên: **Từ Thiếu Lương**
+- Họ tên: **Từ Thiếu Lương**
 - MSSV: **2174802010133**
-- Môn: Lập trình ứng dụng di động — Kotlin
+- Branch: **`cau-1`**
 
-Đây là nhánh `main` chứa project Android Studio nền. Bài làm chia thành 3 nhánh riêng: `cau-1`, `cau-2`, `cau-3`.
+## Nội dung thực hiện
+Màn hình đăng nhập viết bằng Kotlin + ConstraintLayout XML; sử dụng `findViewById`, `Patterns.EMAIL_ADDRESS`, kiểm tra trống và mật khẩu tối thiểu 6 ký tự. Không dùng ViewBinding.
 
-**Cách mở:** Android Studio → Open → chọn thư mục project → Gradle Sync.
+## Minh chứng Câu 1
+Chạy app trên máy ảo, chụp 2 ảnh thật, đặt chính xác tên dưới đây trong thư mục `screenshots/` rồi commit ảnh trước khi nộp.
 
-**Minh chứng:** Ảnh kiểm thử được chụp trực tiếp trên máy ảo, không sử dụng ảnh minh họa thay thế.
+**Dữ liệu lỗi (ví dụ email `abc`, mật khẩu `123`):**
+
+![Validation Error](screenshots/cau1_validation_error.png)
+
+**Dữ liệu hợp lệ (ví dụ `demo@example.com` và `123456`):**
+
+![Validation Success](screenshots/cau1_validation_success.png)
+
+> Ảnh minh chứng chưa được cung cấp; cần chụp trên máy ảo trước khi nộp.
