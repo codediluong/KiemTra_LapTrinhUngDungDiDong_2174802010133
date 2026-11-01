@@ -19,4 +19,5 @@
     <string name="profile_title">Thông tin tài khoản</string>
     <string name="profile_email_label">Email người dùng</string>
     <string name="logout_button">Đăng xuất</string>
+    <string name="subject_heading">Danh sách môn học / kỹ năng</string>
 </resources>

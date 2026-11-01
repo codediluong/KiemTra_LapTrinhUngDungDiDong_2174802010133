@@ -1,8 +1,8 @@
-# BÀI KIỂM TRA THỰC HÀNH — CÂU 2
+# BÀI KIỂM TRA THỰC HÀNH — CÂU 3
 
 - Họ tên: **Từ Thiếu Lương**
 - MSSV: **2174802010133**
-- Branch: **`cau-2`**
+- Branch: **`cau-3`**
 
 ## Nội dung thực hiện
 Màn hình đăng nhập viết bằng Kotlin + ConstraintLayout XML; sử dụng `findViewById`, `Patterns.EMAIL_ADDRESS`, kiểm tra trống và mật khẩu tối thiểu 6 ký tự. Không dùng ViewBinding.
@@ -18,9 +18,20 @@ Chạy app trên máy ảo, chụp 2 ảnh thật, đặt chính xác tên dư�
 
 ![Validation Success](screenshots/cau1_validation_success.png)
 
-> Ảnh minh chứng chưa được cung cấp; cần chụp trên máy ảo trước khi nộp.
+> Các ảnh minh chứng cần được chụp trên máy ảo trước khi nộp.
 
 ## Minh chứng Câu 2
 Nhập email và mật khẩu hợp lệ, nhấn Đăng nhập để mở ProfileActivity; chụp ảnh màn hình hiển thị đúng Email.
 
 ![Profile Intent](screenshots/cau2_profile_intent.png)
+
+## Minh chứng Câu 3
+Đăng nhập hợp lệ, kiểm tra danh sách môn học trong ProfileActivity, sau đó nhấn một mục để hiện Toast.
+
+**ListView:**
+
+![ListView Display](screenshots/cau3_listview_display.png)
+
+**Toast sau khi chọn một môn học:**
+
+![Item Click Toast](screenshots/cau3_item_click_toast.png)
